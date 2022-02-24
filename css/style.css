@@ -32,6 +32,10 @@ body {
 
 /* loader */
 
+/* The loading animation used is
+inspired by an animation found here
+https://codepen.io/slyka85/pen/QvBQPb */
+
 .loader {
     display: flex;
     border-radius: 50%;
