@@ -26,6 +26,11 @@ async function apiCall() {
     }
   } catch (error) {
     console.log(error);
+
+    // The errorMessage function is in a separate .js file
+    // I am unsure if that is fine since in the assignment says
+    // to have the answer to question 2 in a file on its own.
+
     container.innerHTML = errorMessage("An error occured when calling the API");
   }
 }
